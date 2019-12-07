@@ -7,7 +7,7 @@
 - Oluwagbemiro Peculiar, peculiar.isrl17@gmail.com
 - Olaniyi Ajayi,
 - Lamina kehinde Mary,
-- Soboyejo Oluwaseun,
+- Soboyejo Oluwaseun, oluwaseunsoboyejo@gmail.com
 
 
 # Problem
