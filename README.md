@@ -26,10 +26,10 @@ A chatbot that acts as an agent and answers most of the clients questions so tha
 
 # Benefits
 
-Reduces cost of hiring an agent
-Automates follow-ups
-Answer questions in real time
-Keep track of conversations
-Let people schedule property viewings
-Qualify buyers and sellers
-Be available 24-7
+- Reduces cost of hiring an agent
+- Automates follow-ups
+- Answer questions in real time
+- Keep track of conversations
+- Let people schedule property viewings
+- Qualify buyers and sellers
+- Be available 24-7
