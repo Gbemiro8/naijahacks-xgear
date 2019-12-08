@@ -18,7 +18,7 @@ Cost of hiring an agent is high
 
 # Proposed solution
 
-A platform that helps manage properties and buyers and a chatbot that acts as an agent and answers most of the clients questions so that only important things get to the owner.
+A chatbot that acts as an agent and answers most of the clients questions so that only important things get to the owner.
 
 
 # Proposed stack
@@ -27,4 +27,9 @@ A platform that helps manage properties and buyers and a chatbot that acts as an
 # Benefits
 
 Reduces cost of hiring an agent
-Automates the process of leasing and selling properties
+Automates follow-ups
+Answer questions in real time
+Keep track of conversations
+Let people schedule property viewings
+Qualify buyers and sellers
+Be available 24-7
