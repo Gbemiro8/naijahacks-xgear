@@ -1,0 +1,103 @@
+body{
+    padding-top: 0px;
+}
+.content{
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1575881913/images/zxjd3jsj2wqcgewilakr.jpg");
+    background-size: cover;
+    display: block;
+}
+
+ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+h5{
+    padding-top: 1.2em;
+    margin-right: 7.5em;
+    color:rgb(27, 27, 65);
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav .btn{
+    background-color: rgb(27, 27, 65);
+    margin-left: 1em;
+    color: white;
+}
+.carousel-caption{
+    top: 25em;
+    color: white;
+}
+.overlap{
+    right:25rem;
+    top: 25em;
+    position: absolute;
+    z-index: -1;
+
+}
+.card-deck img{
+    height: 15rem;
+    border: 0.1rem solid aliceblue;
+    border-radius: 0.6rem;
+}
+.card-deck{
+    margin-bottom: 2rem; 
+}
+.card{
+    border: 0.1rem solid aliceblue;
+    border-radius: 0.6rem;
+}
+.card button{
+    background-color:aliceblue;
+    color:rgb(46, 45, 45);
+    margin-bottom: 10%; 
+}
+header h6{
+    border-right-color: 18px, black; 
+}
+
+.carousel-caption{
+    margin-bottom: 10%; 
+}
+
+section{
+    background-color: aliceblue;
+}
+h3{
+    padding: 5%;
+    color: rgb(26, 26, 54);
+}
+.card-group img{
+    height: 15rem;
+
+}
+.container-fluid{
+    width: 100%;
+    padding: 0%;
+}
+.card-group{
+margin-right: 10%;
+margin-left: 10%;
+margin-top: 5%;
+
+}
+#ourservice{
+    background-image: url("https://res.cloudinary.com/marykaystuff/image/upload/v1575972980/images/ji8th28r0f2frnwmanpj.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+
+}
+#ourservice img{
+    height: 8rem;
+}
+#ourservice h5{
+    margin: 0%;
+}
+#footer{
+    background-color: black;
+    padding: 2rem;
+}
+
+
