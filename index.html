@@ -23,7 +23,7 @@
           <div id="container-fluid">
             <nav class="navbar navbar-expand-md">
                 <img class="d-inline-block align-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575878074/images/r5mksicpydhsr5betuz1.png" width="100px" height="70px">
-                <button class="navbar-toggler bg-primary text-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <button class="navbar-toggler bg-dark"  type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -95,10 +95,9 @@
                       <span class="sr-only">Next</span>
                       </a>
                       <div class="carousel-caption  d-none d-md-block">
-                      <h6>THE JOY OF LIVING IN COMFORT
-                      HOME IS A PLACE OF REST</h5>
+                      <h4><strong> JOY OF LIVING IN COMFORT
+                      HOME IS A PLACE OF REST </strong></h4>
                       <h1>Find Your New Home</h1>
-                      <a href="#" class="btn btn-primary">LEARN MORE</a>
                       </div>
                   </div>
             </section>
@@ -114,7 +113,7 @@
                   <button  class="btn">4 Beds</button>
                   <button class="btn">3 Baths</button>
                   <button class="btn"> 2 Kitchen</button>
-                  <button class="btn">For Sale</button>
+                  <button class="btn" id="btn">For Sale</button>
                   </div>
                   </div>
                   <div class="card">
@@ -124,7 +123,7 @@
                   <button  class="btn">3 Beds</button>
                   <button class="btn">3 Baths</button>
                   <button class="btn">Kitchen</button>
-                  <button class="btn">For Sale</button>
+                  <button class="btn" id="btn">For Sale</button>
                   </div>
                   </div>
                   <div class="card">
@@ -134,7 +133,7 @@
                   <button  class="btn">3 Beds</button>
                   <button class="btn">3 Baths</button>
                   <button class="btn">Kitchen</button>
-                  <button class="btn">For Sale</button>
+                  <button class="btn" id="btn">For Sale</button>
                   </div>
                   </div>
                   <div class="card">
@@ -144,7 +143,7 @@
                   <button  class="btn">3 Beds</button>
                   <button class="btn">3 Baths</button>
                   <button class="btn">Kitchen</button>
-                  <button class="btn">For Sale</button>
+                  <button class="btn" id="btn">For Sale</button>
                   </div>
                   </div>
                   </div>
@@ -156,7 +155,7 @@
                   <button  class="btn">4 Beds</button>
                   <button class="btn">3 Baths</button>
                   <button class="btn"> 2 Kitchen</button>
-                  <button class="btn">For Rent</button>
+                  <button class="btn" id="btn">For Rent</button>
                   </div>
                   </div>
                   <div class="card">
@@ -166,7 +165,7 @@
                   <button  class="btn">3 Beds</button>
                   <button class="btn">3 Baths</button>
                   <button class="btn">Kitchen</button>
-                  <button class="btn">For Rent</button>
+                  <button class="btn" id="btn">For Rent</button>
                   </div>
                   </div>
                   <div class="card">
@@ -176,7 +175,7 @@
                   <button  class="btn">3 Beds</button>
                   <button class="btn">3 Baths</button>
                   <button class="btn">Kitchen</button>
-                  <button class="btn">For Rent</button>
+                  <button class="btn" id="btn">For Rent</button>
                   </div>
                   </div>
                   <div class="card">
@@ -186,7 +185,7 @@
                   <button  class="btn">3 Beds</button>
                   <button class="btn">3 Baths</button>
                   <button class="btn">Kitchen</button>
-                  <button class="btn">For Rent</button>
+                  <button class="btn" id="btn">For Rent</button>
                   </div>
                   </div>
                   </div>
@@ -208,35 +207,46 @@
                   <h3 class="text-center">
                       HOW IT WORKS
                    </h3>
-                  <div class="container">
-                      <div class="card-deck">
-                          <div class="card">
-                          <img class="card-img-top"  src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/x9hmdlpahjjuf5ghhtkq.jpg" alt="prep">
-                          <div class="card-body">
-                          <p class="card-body text-center"><strong>SIGN UP HERE</p></strong>
-                          <button class="btn">SIGN UP</button>
+                   <div class="container">
+                    <div class="row">
+                    <div class="col-sm-2">
+                    <img class="rounded-circle" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/x9hmdlpahjjuf5ghhtkq.jpg" alt="pic">
+                    <p class="card-body text-center"><a href="signup.html" class="nav-link"><strong>SIGN UP HERE</p></strong></a>
+                  </div>
+                    <div class="col-sm-2">
+                    <img class="rounded-circle" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/sjd6nfbmqv7eyfxhvcf2.jpg">
+                    <!-- Button trigger modal -->
+                    <p class="card-body text-center"><a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal"><strong>MEET OUR HOMEBOT</p></strong></a>
+                  <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                              <img class="rounded-circle" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/sjd6nfbmqv7eyfxhvcf2.jpg">
+                            <strong><h5 class="modal-title text-center" id="exampleModalLabel"> WELCOME THIS IS HOMEBOT</h5></strong>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
                           </div>
+                          <div class="modal-body">
+                            <p class="text-center">What can I do for you?</p>
                           </div>
-                          <div class="card">
-                          <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/sjd6nfbmqv7eyfxhvcf2.jpg" class="card-img-top" alt="housing">
-                          <div class="card-body">
-                          <p class="card-body"><strong>MEET OUR HOMEBOT</p></strong>
-                          <a href="#"class="btn text-center">HOMEBOT</a>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                           </div>
-                          </div>
-                          <div class="card">
-                          <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/olclbmhgubyhbxffwk8m.png" class="card-img-top" alt="housing">
-                          <div class="card-body">
-                          <p class="card-body"><strong>LOCATE YOUR HOME</p></strong>
-                          </div>
-                          </div>
-                          <div class="card">
-                          <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/z46vte8fqlhztzckxgbg.jpg" class="card-img-top" alt="housing">
-                          <div class="card-body">
-                          <p class="card-body"><strong>GET YOUR KEY</p></strong>
-                          </div>
-                          </div>
-                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-2">
+                    <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/olclbmhgubyhbxffwk8m.png" class="rounded-circle">
+                    <p class="card-body text-center"><a href="#" class="nav-link"><strong>LOCATE YOUR HOME</p></strong></a>
+                  </div>
+                    <div class="col-sm-2">
+                    <img class="rounded-circle" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/z46vte8fqlhztzckxgbg.jpg" >
+                    <p class="card-body text-center"><a href="#" class="nav-link"><strong>GET YOUR KEY</p></strong></a>
+                  </div>
+                    </div>
                   </div>
                   <div class="container-fluid" id="ourservices"> 
                   <h3 class="text-center">
@@ -248,21 +258,27 @@
                             <img class="card-img-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575991491/images/l2rr0eunuadqr0gvj9o8.png" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="text-center">Consultant Services</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text text-center">
+                                Our consultant service agents are professionals who are always 
+                                available to attend to any information you may intend to pass across.
+                                We offer 24/7 consultant services</p>
                             </div>
                           </div>
                           <div class="card">
                             <img class="card-img-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575991491/images/y6xuexbhkcj14q9gfhip.png" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="text-center">Property management</h5>
-                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                              <p class="card-text text-center"> We are reliable and trustworthy. With our many years of experience, 
+                                we are in the best position to effectively manage any property that we might be trusted with.</p>
                             </div>
                           </div>
                           <div class="card">
                             <img class="card-img-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575991534/images/hum6bbfbaobzza2fmiyr.png" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="text-center">Renting and Selling</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                              <p class="card-text text-center">We offer stress-free services. With us,
+                                 you have the opportunity to enjoy an aggrandized channel of easy renting and selling. 
+                                 We are always here for your transactions! </p>
                             </div>
                           </div>
                         </div>
@@ -308,3 +324,4 @@
                 </html>
                     
                     
+       
