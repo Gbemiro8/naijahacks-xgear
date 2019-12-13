@@ -19,42 +19,42 @@
     </head>
 <body>
 <section class="container">
-    <div class="content">
+    <div id="content">
         <form method="POST" action="register.php">
             <h1 class="text-center">XGEAR</h1>
-                    <div class="input-group my-1">
+                    <div class="input-group my-4">
                     <div class="input-group-prepend">
                     <span class="input-group-text" id="name" >
                     <i class="fas fa-user"></i>
                     </span>
                     </div>     
-                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your Name" >
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your Name" required >
                     </div>
-                    <div class="input-group my-1">
+                    <div class="input-group my-4">
                     <div class="input-group-prepend">
                     <span class="input-group-text" id="email" >
                     <i class="fas fa-envelope"></i>
                     </span>
                     </div>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" >
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required >
                     </div>    
-                        <div class="input-group my-1">
+                        <div class="input-group my-4">
                         <div class="input-group-prepend">
                         <span class="input-group-text" id="password1" >
                         <i class="fas fa-unlock-alt"></i>                   
                         </span>
                         </div>
-                        <input type="password" id="password1" name="password1" class="form-control" placeholder="Enter your Password" >
+                        <input type="password" id="password1" name="password1" class="form-control" placeholder="Enter your Password" required >
                         </div>    
-                        <div class="input-group my-1">
+                        <div class="input-group my-4">
                         <div class="input-group-prepend">
                         <span class="input-group-text" id="confirm_password" >
                         <i class="fas fa-unlock-alt"></i>                   
                         </span>
                         </div>
-                        <input type="password" id="confirm_password" name="confirm_password" class="form-control" placeholder="Re-Enter your Password" >
+                        <input type="password" id="confirm_password" name="confirm_password" class="form-control" placeholder="Re-Enter your Password" required >
                         </div>    
-                        <input type="Submit" class="btn" name="submit_btn" id="submit_btn">
+                        <input type="Submit" value = "SIGN UP" class="btn" name="submit_btn" id="submit_btn">
                     </form>
             <p class="copyright"><span>&copy 2019</span> Team-Xgear</p>
         </div>

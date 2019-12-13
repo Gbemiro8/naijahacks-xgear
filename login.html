@@ -21,25 +21,25 @@
 <body>
 <section class="container">
         <form method="POST" action="signin.php">
-        <div class="content">
+        <div id="content">
             <h1 class="text-center">XGEAR</h1>
-                    <div class="input-group my-1">
+                    <div class="input-group my-4">
                     <div class="input-group-prepend">
                     <span class="input-group-text" id="email">
                     <i class="fas fa-envelope"></i>
                     </span>
                     </div>     
-                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your Email">
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your Email" required>
                     </div>
-                    <div class="input-group my-1">
+                    <div class="input-group my-4">
                     <div class="input-group-prepend">
                     <span class="input-group-text" id="password" >
                     <i class="fas fa-unlock-alt"></i>                   
                     </span>
                     </div>     
-                    <input type="password" id="input-password" name="password1" class="form-control" placeholder="Enter your Password">
+                    <input type="password" id="input-password" name="password1" class="form-control" placeholder="Enter your Password" required>
                 </div>
-                <input type="Submit" class="btn" name="submit_btn" />
+                <input type="Submit" value = "LOGIN" class="btn" name="submit_btn" />
             </form>
             <p class="copyright text-center"><span>&copy NaijaHacks2019</span> Team-Xgear</p>
         </div>
