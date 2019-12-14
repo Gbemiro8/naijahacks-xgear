@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/d8fafc83d8.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+</head>
+<body>
+        <header>
+          <div id="container-fluid">
+            <nav class="navbar navbar-expand-md">
+                <img class="d-inline-block align-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575878074/images/r5mksicpydhsr5betuz1.png" width="100px" height="70px">
+                <button class="navbar-toggler bg-primary text-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="{{url_for('index')}}">HOME </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#forsale">FOR SALE<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#forrent">FOR RENT</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#ourservices">OUR SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#footer">CONTACT</a>
+                    </li>
+                  <a href="{{url_for('register')}}" class="btn" type="button">SIGN UP</a>
+                  <a href="{{url_for('login')}}" class="btn" type="button">LOG IN</a>
+                    </ul>
+                    </div>
+                </nav>
+                </div>
+          </header>
+          <section>             
+                <div id="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                      <div class="carousel-item active">
+                      <img class="d-block w-100" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575881913/images/zxjd3jsj2wqcgewilakr.jpg" height="600px" width="100%" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575907493/images/w7oioab3u4kh6xfouskw.jpg" height="600px" width="100%" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575907500/images/k23t3ns7b3bzmus6euql.jpg" height="600px" width="100%" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575907560/images/qwiafnnjb5gqstglsu8s.jpg" height="600px" width="100%" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575907489/images/a8z08nvw6h8kt8sxja8q.jpg" height="600px" width="100%" alt="Third slide">
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">    
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                      </a>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                      </a>
+                      <div class="carousel-caption  d-none d-md-block">
+                      <h6>THE JOY OF LIVING IN COMFORT
+                      HOME IS A PLACE OF REST</h5>
+                      <h1>Find Your New Home</h1>
+                      <a href="#" class="btn btn-primary">LEARN MORE</a>
+                      </div>
+                  </div>
+            </section>
+            <section class="container-fluid" id="forsale">
+                  <h3 class="text-center">
+                      OUR TOP RATED PROPERTIES
+                  </h3>
+                  <div class="card-deck">
+                  <div class="card">
+                  <img class="card-img-top"  src="https://res.cloudinary.com/marykaystuff/image/upload/v1575840433/images/k06smq6vdutqxpirefw9.jpg" alt="prep">
+                  <div class="card-body">
+                  <p class="card-body"><strong>4 Bedroom Duplex</p></strong>
+                  <button  class="btn">4 Beds</button>
+                  <button class="btn">3 Baths</button>
+                  <button class="btn"> 2 Kitchen</button>
+                  <button class="btn">For Sale</button>
+                  </div>
+                  </div>
+                  <div class="card">
+                  <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575877983/images/prbwxxvqgscfj8bqsztq.jpg" class="card-img-top" alt="housing">
+                  <div class="card-body">
+                  <p class="card-body"><strong>3 Bedroom Bungalow</p></strong>
+                  <button  class="btn">3 Beds</button>
+                  <button class="btn">3 Baths</button>
+                  <button class="btn">Kitchen</button>
+                  <button class="btn">For Sale</button>
+                  </div>
+                  </div>
+                  <div class="card">
+                  <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575840433/images/mqv0yscdeeu8v9n20kyr.jpg" class="card-img-top" alt="housing">
+                  <div class="card-body">
+                  <p class="card-body"><strong>3 Bedroom Duplex</p></strong>
+                  <button  class="btn">3 Beds</button>
+                  <button class="btn">3 Baths</button>
+                  <button class="btn">Kitchen</button>
+                  <button class="btn">For Sale</button>
+                  </div>
+                  </div>
+                  <div class="card">
+                  <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575877974/images/kouady9be1dgtgorrkbn.jpg" class="card-img-top" alt="housing">
+                  <div class="card-body">
+                  <p class="card-body"><strong>3 Bedroom Duplex</p></strong>
+                  <button  class="btn">3 Beds</button>
+                  <button class="btn">3 Baths</button>
+                  <button class="btn">Kitchen</button>
+                  <button class="btn">For Sale</button>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="card-deck" id="forrent">
+                  <div class="card">
+                  <img class="card-img-top"  src="https://res.cloudinary.com/marykaystuff/image/upload/v1575877972/images/hcwxt6kwz5al5w3pykpm.jpg" alt="housing">
+                  <div class="card-body">
+                  <p class="card-body"><strong>4 Bedroom Duplex</p></strong>
+                  <button  class="btn">4 Beds</button>
+                  <button class="btn">3 Baths</button>
+                  <button class="btn"> 2 Kitchen</button>
+                  <button class="btn">For Rent</button>
+                  </div>
+                  </div>
+                  <div class="card">
+                  <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575877972/images/gj99vmchtw5ixbhesacg.jpg" class="card-img-top" alt="housing">
+                  <div class="card-body">
+                  <p class="card-body"><strong>3 Bedroom Bungalow</p></strong>
+                  <button  class="btn">3 Beds</button>
+                  <button class="btn">3 Baths</button>
+                  <button class="btn">Kitchen</button>
+                  <button class="btn">For Rent</button>
+                  </div>
+                  </div>
+                  <div class="card">
+                  <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575877972/images/qjhxliavhyzz0lnfbdsr.jpg" class="card-img-top" alt="housing">
+                  <div class="card-body">
+                  <p class="card-body"><strong>3 Bedroom Duplex</p></strong>
+                  <button  class="btn">3 Beds</button>
+                  <button class="btn">3 Baths</button>
+                  <button class="btn">Kitchen</button>
+                  <button class="btn">For Rent</button>
+                  </div>
+                  </div>
+                  <div class="card">
+                  <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575877975/images/u6oihmxjf9ajfvytua4h.jpg" class="card-img-top" alt="housing">
+                  <div class="card-body">
+                  <p class="card-body"><strong>3 Bedroom Duplex</p></strong>
+                  <button  class="btn">3 Beds</button>
+                  <button class="btn">3 Baths</button>
+                  <button class="btn">Kitchen</button>
+                  <button class="btn">For Rent</button>
+                  </div>
+                  </div>
+                  </div>
+                </section>
+                  <h3 class="text-center">
+                      OUR CONDOMINIUMS
+                  </h3>
+                  <div class="card-group">
+                  <div class="card">
+                  <img class="card-img-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575877972/images/egcwbfbnenlnshxzzzkh.jpg" alt="Card image cap">
+                  </div>
+                  <div class="card">
+                  <img class="card-img-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575877972/images/griyigargvtsuj2y1fu1.jpg" alt="Card image cap">
+                  </div>
+                  <div class="card">
+                  <img class="card-img-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575877985/images/ig9k8cnwzwm4pqncoaz0.jpg" alt="Card image cap">
+                  </div>
+                  </div>
+                  <h3 class="text-center">
+                      HOW IT WORKS
+                   </h3>
+                  <div class="container">
+                      <div class="card-deck">
+                          <div class="card">
+                          <img class="card-img-top"  src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/x9hmdlpahjjuf5ghhtkq.jpg" alt="prep">
+                          <div class="card-body">
+                          <p class="card-body text-center"><strong>SIGN UP HERE</p></strong>
+                          <button class="btn"><a href="{{url_for('register')}}" class="btn text-center">SIGN UP</a></button>
+                          </div>
+                          </div>
+                          <div class="card">
+                          <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/sjd6nfbmqv7eyfxhvcf2.jpg" class="card-img-top" alt="housing">
+                          <div class="card-body">
+                          <p class="card-body"><strong>MEET OUR HOMEBOT</p></strong>
+                          <a href="{{url_for('botpage')}}" class="btn text-center">HOMEBOT</a>
+                          </div>
+                          </div>
+                          <div class="card">
+                          <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/olclbmhgubyhbxffwk8m.png" class="card-img-top" alt="housing">
+                          <div class="card-body">
+                          <p class="card-body"><strong>LOCATE YOUR HOME</p></strong>
+                          </div>
+                          </div>
+                          <div class="card">
+                          <img src="https://res.cloudinary.com/marykaystuff/image/upload/v1575989614/images/z46vte8fqlhztzckxgbg.jpg" class="card-img-top" alt="housing">
+                          <div class="card-body">
+                          <p class="card-body"><strong>GET YOUR KEY</p></strong>
+                          </div>
+                          </div>
+                          </div>
+                  </div>
+                  <div class="container-fluid" id="ourservices"> 
+                  <h3 class="text-center">
+                     OUR SERVICES
+                  </h3>
+                  <div id="ourservice" class="container-fluid">
+                      <div class="card-group">
+                          <div class="card">
+                            <img class="card-img-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575991491/images/l2rr0eunuadqr0gvj9o8.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="text-center">Consultant Services</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575991491/images/y6xuexbhkcj14q9gfhip.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="text-center">Property management</h5>
+                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <img class="card-img-top" src="https://res.cloudinary.com/marykaystuff/image/upload/v1575991534/images/hum6bbfbaobzza2fmiyr.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="text-center">Renting and Selling</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+                <footer class="container-fluid" id="footer">
+                    <div class="row">
+                    <div class="col-6">
+                    <h4 class="text-white">Contact</h4>
+                    <p class="text-white">
+                    TeamXgear
+                    </p>
+                    </div>
+                    <div class="col-6">
+                    <h4 class="text-white">Connect Us</h4>
+                    <a href="#" class="btn btn-outline-primary btn-icon-only rounded-circle">
+                    <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-icon-only rounded-circle">
+                    <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-icon-only rounded-circle">
+                    <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-icon-only rounded-circle">
+                    <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-icon-only rounded-circle">
+                    <i class="fab fa-linkedin"></i>
+                    </a>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-6">
+                    
+                    </div>
+                    <div class="col-6">
+                    <p class="text-white">Copyright © 2019 TeamXgear NaijaHacks, All rights reserved.</p>
+                    </div>
+                    </div>
+                    </footer> 
+                </body>
+                </html>
+                    
+                    
